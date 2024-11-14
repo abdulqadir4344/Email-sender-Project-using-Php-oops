@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{
+    background: #c6c6ff;
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    color: #fff;
+    background: #c6c6ff;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.container .form form .forget-pass a{
+   font-size: 15px;
+}
+.container .form form .button{
+    background: #6665ee;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #5757d1;
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+.container .form form .link a{
+    color: #6665ee;
+}
+.container .login-form form p{
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 14px;
+}
+
+
+
+table {
+    width: 80%; /* Optional: set a specific width */
+    margin: 0 auto; /* Centers the table */
+    border-collapse: collapse; /* Ensures borders are combined */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #4CAF50; /* Outer table border */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Borders for each cell */
+}
+
+th {
+    background: linear-gradient(135deg, #636363, #b3b3b3); /* Gradient background */
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 14px;
+    border-bottom: 2px solid #000000; /* Darker border below headings */
+    font-size: 25px;
+    letter-spacing: 1px; /* Adds space between letters */
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1); /* Subtle inner shadow for depth */
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e6f7ff;
+}
+
+td img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+td {
+    text-align: center;
+    font-size: 19px;
+    color: #333;
+    height: 40px;
+}
+
+
+
+
+ul.navbar {
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    display: inline;
+}
+
+ul.navbar li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul.navbar li a:hover {
+    background-color: #ddd;
+}
+
+.logout-btn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 13px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 5000px;
+}
+
+.logout-btn:hover {
+    background-color: darkred;
+}
