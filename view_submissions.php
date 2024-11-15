@@ -29,9 +29,8 @@ $stmt = $db->query($query);
     <!-- Navbar -->
     <ul class="navbar">
         <li><a href="home.php">Home</a></li>
-        <li><a href="profile.php">Profile</a></li>
         <li><a href="view_submissions.php">Submissions</a></li>
-        <li><a href="contact.php">Contact</a></li>
+
 
         <!-- Logout button -->
         <li style="float: right;">
